@@ -1,5 +1,14 @@
 package com.example.syndicatelending.entity;
 
 public enum Industry {
-    // ...enum定義をparty/entity/Industry.javaから移植...
+    FINANCE,
+    MANUFACTURING,
+    IT,
+    RETAIL,
+    ENERGY,
+    TRANSPORTATION,
+    HEALTHCARE,
+    CONSTRUCTION,
+    AGRICULTURE,
+    OTHER
 }

@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/parties")
+@RequestMapping("/api/v1/parties")
 @Tag(name = "Party Management")
 public class PartyController {
 

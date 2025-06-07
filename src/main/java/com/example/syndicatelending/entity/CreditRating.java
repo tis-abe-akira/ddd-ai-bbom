@@ -1,5 +1,14 @@
 package com.example.syndicatelending.entity;
 
 public enum CreditRating {
-    // ...enum定義をparty/entity/CreditRating.javaから移植...
+    AAA,
+    AA,
+    A,
+    BBB,
+    BB,
+    B,
+    CCC,
+    CC,
+    C,
+    D; // Default rating for defaulted loans
 }

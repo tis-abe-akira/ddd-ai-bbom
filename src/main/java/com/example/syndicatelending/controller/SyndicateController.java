@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/syndicates")
+@RequestMapping("/api/v1/syndicates")
 public class SyndicateController {
     @Autowired
     private SyndicateRepository syndicateRepository;

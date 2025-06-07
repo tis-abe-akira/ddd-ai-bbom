@@ -1,5 +1,14 @@
 package com.example.syndicatelending.entity;
 
 public enum Country {
-    // ...enum定義をparty/entity/Country.javaから移植...
+    JAPAN,
+    USA,
+    UK,
+    GERMANY,
+    FRANCE,
+    CHINA,
+    INDIA,
+    AUSTRALIA,
+    CANADA,
+    OTHER
 }
